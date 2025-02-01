@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather Web</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <header class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search The City..."
+        />
+        <button class="search-Btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </header>
+      <section class="weather-info">
+        <div class="location-date-container">
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h4 class="country-text">some city</h4>
+          </div>
+          <h5 class="current-date-text regular-text">some date</h5>
+        </div>
+        <div class="weather-summary-container">
+          <img src="./weather/clouds.svg" class="weather-summery-img" />
+          <div class="weather-summery-info">
+            <h1 class="temp-text">32 °C</h1>
+            <h3 class="condition-text regular-text">Clouds</h3>
+          </div>
+        </div>
+        <div class="weather-condition-container">
+          <div class="condition-item">
+            <i class="fa-solid fa-droplet"></i>
+            <div class="condition-info">
+              <h5 class="regular-text">Humidity</h5>
+              <h5 class="humidity-value-text">55%</h5>
+            </div>
+          </div>
+
+          <div class="condition-item">
+            <i class="fa-solid fa-wind"></i>
+            <div class="condition-info">
+              <h5 class="regular-text">ٌWind Speed</h5>
+              <h5 class="humidity-value-text">2 M/s</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+    integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="./app.js"></script>
+</html>
