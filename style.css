@@ -94,6 +94,7 @@ body::before {
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
+  display: none;
 }
 
 .location-date-container {
@@ -187,4 +188,26 @@ body::before {
 .forecast-item-img {
   width: 35px;
   height: 35px;
+}
+
+/* MESSAGE SECTION */
+
+.section-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  margin-top: 25%;
+  overflow: hidden;
+  display: none;
+}
+
+.section-message img {
+  height: 30vh;
+  width: fit-content;
+}
+
+.info-text {
+  font-size: 20px;
 }
