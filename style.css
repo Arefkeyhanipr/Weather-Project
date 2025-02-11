@@ -200,7 +200,6 @@ body::before {
   gap: 15px;
   margin-top: 25%;
   overflow: hidden;
-  display: none;
 }
 
 .section-message img {
@@ -210,4 +209,8 @@ body::before {
 
 .info-text {
   font-size: 20px;
+}
+
+.not-found {
+  display: none;
 }
