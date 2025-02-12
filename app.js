@@ -90,7 +90,7 @@ async function updateWeatherInfo(city) {
 
   currentDateText.innerHTML = getCurrentData();
 
-  weatherSummaryImg.src = `/weather/${getWeatherIcon(id)}`;
+  weatherSummaryImg.src = `./weather/${getWeatherIcon(id)}`;
 
   await updateForecastsInfo(city);
 
