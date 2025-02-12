@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family: sans-serif;
   background: url("./360_F_916969713_8uHluUNrHQWAUtHuT9XEjbxv27oe5qqg.jpg");
   width: 100%;
   height: 100vh;
@@ -142,7 +143,7 @@ body::before {
 .current-date-text,
 .country-text {
   font-size: 25px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .forecast-items-conitainer {
@@ -213,4 +214,88 @@ body::before {
 
 .not-found {
   display: none;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 90%;
+    height: auto;
+    padding: 30px;
+  }
+
+  .search-input {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+
+  .search-Btn {
+    font-size: 1.2rem;
+  }
+
+  .weather-info {
+    font-size: 18px;
+  }
+
+  .weather-summery-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .weather-summery-info h1 {
+    font-size: 24px;
+  }
+
+  .current-date-text,
+  .country-text {
+    font-size: 20px;
+  }
+
+  .weather-condition-container {
+    flex-direction: flex;
+    gap: 10px;
+  }
+
+  .icons {
+    font-size: 30px;
+  }
+
+  .forecast-items-conitainer {
+    gap: 10px;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .forecast-item {
+    min-width: 40%;
+    padding: 15px;
+  }
+
+  .section-message {
+    margin-top: 10%;
+  }
+
+  .section-message img {
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .weather-summery-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .weather-summery-info h1 {
+    font-size: 20px;
+  }
+
+  .current-date-text,
+  .country-text {
+    font-size: 18px;
+  }
+
+  .forecast-item {
+    min-width: 50%;
+  }
 }
