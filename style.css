@@ -215,6 +215,12 @@ body::before {
 .not-found {
   display: none;
 }
+.not-found h4 {
+  color: rgb(194, 6, 6);
+}
+.not-found h1 {
+  color: rgb(255, 0, 0);
+}
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
